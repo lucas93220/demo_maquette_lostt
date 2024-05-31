@@ -19,7 +19,7 @@
 ![cover](./asset/colors.png)
 
 >Logo :
-![cover](./asset/lostt2.png)
+![cover](./asset/LOSTT2.png)
 
 ## Lien du site 
 
