@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&display=swap');
+
+header {
+  background-color: #ffffff;
+  border: solid 1px black;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.logo {
+  width: 70px;
+  height: auto;
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+}
+
+.navigation {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 30px;
+  transition: color 0.3s;
+  font-family: 'Kanit';
+}
+
+.navigation li a:hover {
+  color: #000000;
+}
+
+.sous-navigation {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.navigation li:hover .sous-navigation {
+  display: block;
+}
+
+.sous-navigation li {
+  display: block;
+}
+
+.sous-navigation li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+#panier-content {
+  position: absolute;
+  top: 59px;
+  right: 0px;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: 'Kanit';
+  max-width: 30%;
+  display: flex;
+  z-index: 999;
+  flex-direction: column;
+}
+
+#panier-content input{
+  max-width: 7%;
+  font-family: 'Kanit';
+}
+
+.deleteButton {
+  margin: auto auto auto 4rem;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Kanit';
+  transition: 550ms;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.valideButton{
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Kanit';
+  cursor: pointer;
+  transition: 550ms;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;}
+
+  .valideButton:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 550ms;
+}
+
+.deleteButton:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: 550ms;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column; 
+  }
+
+  .navigation li {
+    display: block;
+    margin-bottom: 10px; 
+  }
+
+  .sous-navigation {
+    position: static;
+    display: none; 
+  }
+
+  .navigation li:hover .sous-navigation {
+    display: block; 
+  }
+}
