@@ -43,7 +43,7 @@ nav {
   color: #000000;
 }
 
-.sous-navigation {
+/* .sous-navigation {
   display: none;
   position: absolute;
   background-color: #ffffff;
@@ -62,7 +62,7 @@ nav {
   color: #000000;
   text-decoration: none;
   padding: 5px 0;
-}
+} */
 
 #panier-content {
   position: absolute;
