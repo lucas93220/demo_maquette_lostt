@@ -19,4 +19,4 @@
 ![cover](./asset/colors.png)
 
 >Logo :
-![cover](./asset/lostt.bmp)
+![cover](./asset/lostt2.png)
