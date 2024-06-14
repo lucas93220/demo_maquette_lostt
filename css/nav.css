@@ -43,30 +43,34 @@ nav {
   color: #000000;
 }
 
-/* .sous-navigation {
+.sous-navigation {
   display: none;
   position: absolute;
+  top: 73px;
   background-color: #ffffff;
+  border: 1px solid black;
   padding: 10px;
 }
 
 .navigation li:hover .sous-navigation {
   display: block;
+  
 }
 
 .sous-navigation li {
   display: block;
+  
 }
 
 .sous-navigation li a {
   color: #000000;
   text-decoration: none;
   padding: 5px 0;
-} */
+}
 
-/* #panier-content {
+#panier-content {
   position: absolute;
-  top: 59px;
+  top: 73px;
   right: 0px;
   background-color: #fff;
   border: 1px solid black;
@@ -109,7 +113,21 @@ nav {
   transition: 550ms;
   background-color: #ffffff;
   border: 1px solid #000000;
-  color: #000000;}
+  color: #000000;
+}
+.connexionButton{
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Kanit';
+  cursor: pointer;
+  transition: 550ms;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
 
   .valideButton:hover{
     background-color: #000000;
@@ -121,30 +139,41 @@ nav {
   background-color: #000000;
   color: #ffffff;
   transition: 550ms;
-} */
+}
+.connexionButton:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: 550ms;
+}
 
 @media screen and (max-width: 800px) {
-    nav {
-        display: block;
-      }
-      
-      .navigation {
-        list-style-type: none;
-      }
-      
-      .navigation li {
-        display: block;
-        margin-bottom: 10px;
-      }
-      
-      .navigation li a {
-        color: #000000;
-        display: block;
-        text-decoration: none;
-        padding: 5px;
-        transition: color 0.3s;
-        font-family: 'Kanit';
-      }
-      
+  nav {
+    display: block;
+  }
+  
+  .navigation {
+    list-style-type: none;
+  }
+  
+  .navigation li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .navigation li a {
+    padding: 0px;
 
+  }
+  #panier-content {
+        top: 211px;
+        max-width: 100%;
+
+ 
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .navigation li a {
+    padding: 0px;
+  }
 }
